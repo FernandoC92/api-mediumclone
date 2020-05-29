@@ -1,10 +1,5 @@
 package com.apimc.mediumcloneapi.controllers.dto;
 
-import java.util.Date;
-import java.util.List;
-
-import com.apimc.mediumcloneapi.model.entities.Tag;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,7 +17,8 @@ public class StorieDto {
     private String imgPoster;
     private String storie;
     private String author;
-    private Date datePoster;
-    // private List<Tag> tags;
+    private String datePoster;
+    // private List<Topic> topicAssociated;
+    // private List<Tag> tagsAssociated;
  
 }

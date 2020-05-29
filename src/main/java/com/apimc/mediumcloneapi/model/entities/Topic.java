@@ -5,15 +5,19 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class Topic {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private @Getter Long id;
+    private @Getter @Setter Long id;
     private @Getter @Setter String name_topic;
     
 }

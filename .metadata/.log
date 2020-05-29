@@ -1615,3 +1615,143 @@ org.eclipse.jface.resource.DeviceResourceException: Unable to create resource UR
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+!SESSION 2020-05-22 02:58:07.828 -----------------------------------------------
+eclipse.buildId=16.0.0.CI-006
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2020-05-22 03:01:17.658
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-05-22 03:01:17.658
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2020-05-22 03:01:18.760
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2020-05-22 03:01:18.778
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2020-05-22 03:01:19.365
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-22 03:01:19.365
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c4164a8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18fe293d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-22 03:01:19.365
+!MESSAGE A conflict occurred for CTRL+SHIFT+V:
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(net.jeeeyul.pdetools.clipboard.pasteHistory,Paste Content in History,
+		,
+		Category(net.jeeeyul.pdetools.category,PDE Tools,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73344756,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.command.OpenFromClipboard,Open from Clipboard,
+		Opens a Java element or a Java stack trace from clipboard,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@737935a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.skyway.core.ui.validate,Validate,
+		Run Skyway Validation,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46a7b47,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-22 03:01:19.365
+!MESSAGE A conflict occurred for CTRL+SHIFT+Z:
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.eclipse.angularjs.ui.navigate.open.angular.element,Open Angular Element,
+		Opens an Angular Element in a JavaScript editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d340d36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.skyway.core.ui.generate,Generate,
+		Generate with Skyway,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3cebe931,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-05-22 03:01:32.238
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.eclemma.ui.CoverageView" id and the "Coverage" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-05-22 03:01:32.297
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.oomph.p2.ui.RepositoryExplorer" id and the "Repository Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-05-22 03:01:32.302
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tips.ide.tipPart" id and the "Tip of the Day" label.It points to the non available "bundleclass://org.eclipse.tips.ide/org.eclipse.tips.ide.internal.TipPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-05-22 03:01:32.306
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.builds.navigator.builds" id and the "Builds" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-05-22 03:01:32.348
+!MESSAGE Removing PartDescriptorImpl with the "com.genuitec.eclipse.modeling.ui.OverviewView" id and the "JSF Flow Overview" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-22 03:01:32.881
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ferna'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-05-22 03:01:33.387
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.467
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.485
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.551
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.565
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.578
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.592
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.610
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.629
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.664
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.691
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-05-22 03:01:39.724
+!MESSAGE Installed snippet library: C:\Users\ferna\AppData\Local\MyEclipse\configuration\org.eclipse.osgi\179\0\.cp\snippets\jsp\struts_tiles_snippets.xml
